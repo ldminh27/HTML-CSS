@@ -1,0 +1,156 @@
+*{padding: 0; margin: 0; box-sizing: border-box;}
+.wrapper{
+    width: 980px;
+    margin: auto;
+    font-family: Tahoma;
+}
+.header-main{
+    height: 150px;
+    background: #2d3246;
+    text-align: center;
+    padding-top: 30px;
+}
+.nav-main{
+    height: 40px;
+    background: #52c6b7;
+}
+.content{
+    height: 750px;
+}
+.footer-main{
+    height: 50px;
+    background: #2d3246;
+    margin-top: 170px; 
+    color: #FFF; 
+    text-align: center;
+    line-height: 50px;
+}
+.content-left{
+    width: 200px;
+    height: 650px;
+    float: left;
+    border: 1px solid #cdcdcd;
+    margin-right: 8px;
+    margin-top: 10px;
+}
+.content-right{
+    width: 770px;
+    height: 650px;
+    float: left;
+    border: 1px solid #cdcdcd;
+    padding: 10px;
+    margin-top: 10px;
+}
+/* css menu */
+.nav-main ul li {
+    list-style: none;
+    float: left;
+    line-height: 40px;
+    padding: 0 20px;
+    position: relative;
+}
+.nav-main ul li a{
+    color: #FFF;
+    text-decoration: none;
+}
+.nav-main ul li a:hover{
+    text-decoration: underline;
+    color: pink;
+}
+.nav-main ul li:hover{
+    background: #2d3246;
+}
+.text{
+    width: 200px;
+    height: 26px;
+    border: none;
+    background: white;
+    padding-left: 5px;
+    margin-top: 8px;
+}
+.timkiem{
+    width: 60px;
+    height: 26px;
+    background: rgb(1, 1, 1);
+    border: 0.5px solid rgb(0, 0, 0);
+    color: aliceblue;}
+.sub-menu{
+    position: absolute;
+    display: none;
+    left: 0;
+}
+.nav-main ul li:hover .sub-menu{
+    display: block;
+}
+.sub-menu li{
+    width: 200px;
+    background: #52c6b7;
+}
+
+/*css content left*/
+.cate{
+    text-transform: uppercase; 
+    line-height: 40px; 
+    padding-left: 10px; 
+    border-bottom: 1px solid #cdcdcd; 
+    font-weight: bold;
+}
+.list-cate{
+    list-style: url();
+    list-style-position: inside;
+    line-height: 30px;
+    padding-left: 10px;
+}
+.list-cate li a{color: #2d3246; text-decoration: none;}
+.list-cate li a:hover{color: #52c6b7;}
+.adv{width: 100px;}
+
+/* css box news */
+.box-news{
+    border: 1px solid #cdcdcd;
+    width: 48%; float: left;
+    margin-right: 19px; padding: 10px;
+    margin-top: 10px;
+}
+.title{padding: 10px 0;}
+.title a {
+    color: green;
+    text-decoration: none;
+}
+.title a:hover{text-decoration: underline;}
+.img-n{width: 200px; height: 150px; float: left;
+margin: 10px 10px 0 0;}
+.intro{line-height: 25px;}
+
+/* css bang gia */
+.banggia{
+    margin-top: 10%;
+    border: 1px soid red;
+    line-height: 40px; padding-left: 5px;
+}
+.sp{
+    background: rgb(238, 107, 7);
+    color: white;
+    border: 1px solid white !important;
+    text-align: center;
+    font-weight: bold;
+}
+.freeship{
+    margin-left: 150px;
+}
+.giamgia{
+    font-weight: bold;
+    padding-left: 50px;
+}
+.giagoc{
+    padding-left: 40px;
+}
+.ghichu{
+    padding-left: 10px;
+}
+.freeship{
+    text-align: center;
+    color: #faa70d;
+    font-size: 20px;
+    font-style: italic;
+}

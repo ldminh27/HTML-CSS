@@ -1,0 +1,21 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+.wrapper{
+    width: 980px;
+    margin: auto;
+}
+.header-main{
+    height: 200px;
+    background: black;
+}
+.nav-main{
+    height: 40px;
+    background: red;
+}
+.content{
+    height: 800px;
+    background: cadetblue;
+}
+.footer-main{
+    height: 80px;
+    background: black;
+}

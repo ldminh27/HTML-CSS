@@ -1,0 +1,175 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+body{
+    background: #c3c3bc;
+    font-family: tahoma;
+}
+#wrapper{
+    width: 960px;
+    margin: auto;
+}
+#header{
+    height: 95px;
+    background: white;
+    text-align: center;
+    padding-top: 10px;
+}
+#menu{
+    height: 41px;
+    background: #017dBe;
+}
+#content{
+    height: 715px;
+    margin: 10px 0;
+    background: white;
+}
+#footer{
+    height: 50px;
+    background: #017dBe;
+    color: white;
+    clear: both;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 15px;
+}
+#left{
+    width: 710px;
+    height: 715px;
+    background: white;
+    float: left;
+    padding: 5px 0 0 10px;
+}
+#right{
+    width: 250px;
+    height: 715px;
+    background: #017dBe;
+    float: left;
+}
+/* css menu */
+#menu ul li{
+    list-style: none;
+    float: left;
+    line-height: 41px;
+    padding: 0 35px;
+    font-size: 15px;
+}
+#menu ul li a{
+    color: white;
+    text-decoration: none;
+}
+#menu ul li a:hover{
+    text-decoration: underline;
+}
+.text{
+    width: 200px;
+    height: 25px;
+    border: none;
+    background: white;
+    padding-left: 5px;
+    margin-top: 10px;
+}
+.timkiem{
+    width: 60px;
+    height: 25px;
+    background: rgb(58, 55, 55);
+    border: 0.5px solid whitesmoke;
+    color: aliceblue;
+}
+form{
+    text-align: right;
+    margin-right: 15px;
+}
+/* toptin */
+.toptin{
+    height: 235px;
+    margin: 5px 5px 10px 0;
+}
+.imgtoptin{
+    float: left;
+    margin-right: 20px;
+}
+.tieudetop{
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+    line-height: 25px;
+}
+.tieudetop a{
+    color: #01515c;
+    text-decoration: none;
+}
+.tieudetop a:hover{
+    text-decoration: underline;
+}
+.tintv{
+    font-size: 14px;
+    line-height: 22px;
+}
+/* css tin lien quan top tin */
+.tinlq{
+    height: 14px;
+}
+.tin{
+    width: 336px;
+    height: 141px;
+    border: 1px solid #617706;
+    float: left;
+    margin-right: 8px;
+    padding: 15px 10px;
+}
+.anhlq{
+    float: left;
+    margin-right: 10px;
+}
+.tieudelq{
+    font-size: 14px;
+    font-weight: bold;
+}
+.tieudelq a{
+    color: #ac7b2f;
+    text-decoration: none;
+}
+.tieudelq a:hover{
+    color: #617706;
+}
+.tinvtlq{
+    font-size: 12px;
+    margin-top: 10px;
+}
+/* css tin moi */
+.danhmuc{
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 16px;
+    border-bottom: 1px solid white;
+}
+.listtinmoi ul li{
+    list-style-type: none !important;
+    list-style-position: inside;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 14px;
+    line-height: 25px;
+}
+.listtinmoi ul li a{
+    color: white;
+    text-decoration: none;
+}
+.listtinmoi ul li a:hover{
+    color: pink;
+}
+.phanhoi{
+    padding: 15px; 
+    margin: auto; 
+    font-weight: bold;
+    margin-top: 2%;
+    font-size: 15px;
+}
+.ttph{
+    margin-top: 5px;
+}
+.td{
+    text-align: center;
+}
+.btn_sent{width: 90px; height: 25px; background: rgb(201, 101, 43); color: white; border-radius: 20px;margin-top: 10px;}
+.exit{width: 90px;height: 25px;background: rgb(58, 94, 177); color: white;border-radius: 20px;margin-top: 10px;}

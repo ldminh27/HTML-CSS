@@ -1,0 +1,151 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+body{
+    background: rgb(255, 255, 255);
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    */
+}
+.wrapper{
+    width: 980px;
+    margin: auto;
+}
+.logo{
+    height: 200px;
+    background: white;
+    text-align: center;
+    padding-top: 10px;    
+}
+.menu{
+    height: 35px;
+    background: #272f54;
+}
+.banner{
+    height: 250px;
+}
+.content{
+    height: 850px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    margin-top: 10px;
+}
+footer{
+    height: 50px;
+    background: #272f54;
+    clear: both;
+}
+.menu ul li{
+    list-style: none;
+    float: left;
+    line-height: 35px;
+    padding-left: 35px;
+    position: relative;
+}
+.menu ul li a{
+    color: white;
+    font-size: 10px;
+    text-decoration: none;
+}
+.menu ul li a:hover{
+    text-decoration: underline;
+    color: pink;
+}
+.text{
+    width: 200px;
+    height: 20px;
+    border: none;
+    background: white;
+    padding-left: 5px;
+    margin-top: 8px;
+}
+.timkiem{
+    width: 60px;
+    height: 20px;
+    background: red;
+    border: 0.5px solid whitesmoke;
+    color: aliceblue;
+}
+form{
+    text-align: right;
+    margin-right: 15px;
+}
+.banner img{
+    width: 100%;
+    height: 100%;
+}
+.footer-main{
+    height: 50px;
+    margin-top: 10px; color: #FFF; text-align: center;
+    line-height: 50px;
+}
+/* css menu tin tức */
+.sub-menu{
+    position: absolute;
+    display: none;
+    left: 0;
+}
+.sub-menu li{
+    width: 200px;
+    background: rgb(167, 75, 75);
+}
+.menu ul li:hover .sub-menu{
+    display: block;
+}
+.content-left{
+    margin-top: 10px;
+    width: 480px;
+    height: 810px;
+    float: left;
+    border: 3px solid #ffffff;
+    margin-right: 8px;
+}
+.content-right{
+    margin-top: 10px;
+    margin-left: 2px;
+    width: 480px;
+    height: 810px;
+    float: left;
+    border: 3px solid #ffffff;
+    padding: 10px;
+}
+.anhsp img{
+    width: 470px;
+    margin-top: 10px;
+}
+.title{
+    border-bottom: 1px solid #000000;
+}
+.ctsp{
+    margin-top: 15px;
+    font-size: 20px;
+}
+.ctsp ul li{
+    list-style-type: none;
+}
+
+.giagoc{
+    margin-top: 10px;
+    color: #262324;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: line-through;
+    border-bottom: 1px solid #000000;
+}
+.giamoi{
+    color: red;
+    font-size: 30px;
+    font-weight: bold;
+}
+.ttsp{
+    font-size: 25px;
+    margin-right: 10x;
+    margin-top: 10px;
+}
+.ctr{
+    border-bottom: 1px solid #000000;
+}
+.ket{
+    border-bottom: 1px solid #000000;
+}
+.hinhanhkhac img{
+    width: 200px;
+    margin-top: 10px;
+}

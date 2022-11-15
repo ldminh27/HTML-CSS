@@ -1,0 +1,11 @@
+Sinh viên triển khai ứng dụng gồm các chức năng sau : 
+
+1. Màn hình chào hiển thị họ tên và mssv và chữ Fpoly. Chữ Fpoly có hiệu ứng xoay tròn 
+ sau đó chờ 2s rồi tự động mở ra màn hình 2.  
+2. Tại màn hình 2. có 1 nút Thêm và ListView (danh sách hiển thị địa điểm từ Sqlite.) trên mỗi hàng có nút xem. 
+Khi bấm nút xem này mở ra trình duyệt Google Maps vs vị trí được nhập ở màn 3
+3. Màn hình 3 được mở ra khi bấm nút Thêm gồm các ô nhập 
+  1. tên địa điểm 
+  2. tọa độ của địa điểm 
+   Nút save. khi bấm save cần validate dữ liệu ko nhập trống. tên địa điểm số kí tự > 10 . tọa độ phải là số 
+   Save dữ liệu vào Sqlite

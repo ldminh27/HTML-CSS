@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.app {
+  width: 100vw;
+}
+
+.nav {
+  width: 100%;
+  height: 46px;
+  background-color: #6d9eeb;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.center {
+  width: 100%;
+  max-width: 1200px;
+}
+
+.nav div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav div a {
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.banner {
+  width: 100%;
+  display: grid;
+  place-items: center;
+  margin-bottom: 30px;
+}
+
+.banner div {
+  height: 300px;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+}
+
+.items {
+  width: 100%;
+  display: grid;
+  place-items: center;
+  margin-bottom: 30px;
+}
+
+.items div {
+  display: flex;
+  flex-basis: 20%;
+}
+
+.items div div {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  padding: 0 6px;
+}
+
+.items div div img {
+  width: 100%;
+  height: auto;
+}
+
+.items div div div {
+  display: flex;
+  flex-direction: row;
+  border: none;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.items div div div span:first-child {
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.items div div div span:last-child {
+    text-decoration: line-through;
+}

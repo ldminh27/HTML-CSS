@@ -1,0 +1,129 @@
+*{padding: 0; margin: 0; box-sizing: border-box;}
+.wrapper{
+    width: 980px;
+    margin: auto;
+}
+.header-main{
+    height: 150px;
+    background: #2d3246;
+    text-align: center;
+    padding-top: 30px;
+}
+.nav-main{
+    height: 40px;
+    background: #52c6b7;
+}
+.content{
+    height: 750px;
+}
+.footer-main{
+    height: 50px;
+    background: #2d3246;
+    margin-top: 10px; 
+    color: #FFF; 
+    text-align: center;
+    line-height: 50px;
+}
+.content-left{
+    width: 190px;
+    height: 750px;
+    float: left;
+    border: 1px solid #cdcdcd;
+    margin-right: 8px;
+}
+.content-right{
+    width: 780px;
+    height: 750px;
+    float: left;
+    border: 1px solid #cdcdcd;
+    padding: 10px;
+}
+/* css menu */
+.nav-main ul li {
+    list-style: none;
+    float: left;
+    line-height: 40px;
+    padding: 0 20px;
+    position: relative;
+}
+.nav-main ul li a{
+    color: #FFF;
+    text-decoration: none;
+}
+.nav-main ul li a:hover{
+    text-decoration: underline;
+    color: pink;
+}
+.nav-main ul li:hover{
+    background: #2d3246;
+}
+.sub-menu{
+    position: absolute;
+    display: none;
+    left: 0;
+}
+.nav-main ul li:hover .sub-menu{
+    display: block;
+}
+.sub-menu li{
+    width: 200px;
+    background: #52c6b7;
+}
+/* css banner main , dọc*/
+.banner-main{
+    width: 100px;
+}
+.adv-left{
+    width: 150px;
+    position: fixed;
+    top: 0; left: 0;
+}
+.adv-right{
+    width: 200px;
+    position: fixed;
+    top: 0; left: 0;
+}
+/*css product*/
+.cate-pro{
+    text-transform: uppercase;
+    font-weight: bold;
+    border-bottom: 1px solid #cdcdcd;
+    line-height: 40px;
+    margin-top: 10px;
+}
+.product{
+    width: 32%; float:left; border: 1px solid #cdcdcd;
+    margin-right: 10px; text-align: center; padding: 10px 0;
+    position: relative; 
+}
+.img-pro{
+    width: 80%;
+    height: 200px;
+}
+.name-pro a{color: #2d3246;text-decoration: none;}
+.name-pro a:hover{color: palevioletred;}
+.price-pro{color: palevioletred; font-weight: bold; margin: 10px 0;}
+.price-pro span{text-decoration: line-through; color: gray;
+
+}
+.labe1-pro{
+    background: url();background-repeat: no-repeat;
+    padding: 10px; color: #FFF; position: absolute; right: 0;
+}
+/*css content left*/
+.cate{
+    text-transform: uppercase; 
+    line-height: 40px; 
+    padding-left: 10px; 
+    border-bottom: 1px solid #cdcdcd; 
+    font-weight: bold;
+}
+.list-cate{
+    list-style: url();
+    list-style-position: inside;
+    line-height: 30px;
+    padding-left: 10px;
+}
+.list-cate li a{color: #2d3246; text-decoration: none;}
+.list-cate li a:hover{color: #52c6b7;}
+.adv{width: 100px;}

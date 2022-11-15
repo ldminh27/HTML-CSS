@@ -1,0 +1,125 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+.wrapper{
+    width: 980px;
+    margin: auto;
+    font-family: tahoma;
+}
+.header-main{
+    height: 100px;
+    text-align: center;
+    padding-top: 20px;
+}
+.nav-main{
+    height: 37px;
+    background: #ad4601;
+}
+.banner{
+    margin: 10px 0;
+}
+.timkiem{
+    height: 60px;
+    background: #ad4601;
+}
+.content{
+    height: 780px;
+}
+.footer-main{
+    height: 50px;
+    background: #272f54;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+}
+/* css menu */
+.nav-main ul li{
+    list-style: none;
+    float: left;
+    line-height: 40px;
+    padding: 0 25px;
+    font-size: 12px;
+}
+.nav-main ul li a{
+    color: white;
+    text-decoration: none;
+}
+.nav-main ul li a:hover{
+    text-decoration: underline;
+}
+/* tim kiem */
+.search{
+    padding-top: 12px;
+    padding-left: 35px;
+}
+.txt-search{
+    width: 745px; height: 37px;
+}
+.btn-search{
+    margin-left: 46px;
+    width: 118px;
+    height: 37px;
+    background: #272f54;
+    color: white;
+}
+
+.tin{
+    width: 480px;
+    height: 390px;
+    border: 1px solid #617706;
+    float: left;
+    margin-right: 10px;
+    padding: 15px 10px;
+    margin-top: 16px;
+}
+.tieudelq{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 25px;
+}
+.tieudelq a{
+    color: #ac7b2f;
+    text-decoration: none;
+}
+.tieudelq a:hover{
+    color: #617706;
+}
+.tieudelq2{
+    font-size: 20px;
+    font-weight: bold;
+    float: right;
+}
+.tieudelq2 a{
+    color: #ac7b2f;
+    text-decoration: none;
+}
+.tieudelq2 a:hover{
+    color: #617706;
+}
+.tin1{
+    width: 480px;
+    height: 390px;
+    border: 1px solid #617706;
+    float: right;
+    padding: 15px 10px;
+    margin-top: 16px;
+}
+.tin2{
+    width: 980px;
+    height: 320px;
+    border: 1px solid #617706;
+    float: left;
+    margin-right: 10px;
+    padding: 15px 10px;
+    margin-top: 21px;
+}   
+.anhlq{
+    margin-left: 15px;
+    
+}
+.tinvt{
+    margin-top: 50px;
+    font-size: 16px;    
+}
+.imgtin2{
+    float: left;
+    margin-right: 20px;
+}

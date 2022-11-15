@@ -1,0 +1,130 @@
+*{padding: 0; margin: 0; box-sizing: border-box;}
+
+.wrapper{
+    width: 980px;
+    margin: auto;
+}
+.nav-main{
+    height: 40px;
+    background: #272f54;
+}
+.header-main{
+    height: 150px;
+    background: #ffffff;
+    text-align: center;
+    padding-top: 30px;
+}
+.footer-main{
+    height: 50px;
+    margin-top: 10px; 
+    color: rgb(255, 255, 255); 
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    border: 1px solid rgb(253, 253, 253);
+    clear: both;
+    background-color: #272f54;
+    
+}
+.content{
+    height: 985px;
+    color: white;
+}
+.nav-main ul li{
+    list-style: none;
+    float: left;
+    line-height: 35px;
+    padding-left: 40px;
+    position: relative;
+}
+.nav-main ul li a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+.nav-main ul li a:hover{
+    text-decoration: underline;
+    color: palevioletred;
+}
+.content-left{
+    width: 190px;
+    height: 750px;
+    float: left;
+    border: 1px solid #cdcdcd;
+    margin-right: 8px;
+    background-color: gray;
+}
+.content-right{
+    width: 780px;
+    height: 750px;
+    float: left;
+    border: 1px solid #cdcdcd;
+    padding: 10px;
+}
+.cate{
+    text-transform: uppercase; 
+    line-height: 40px; 
+    padding-left: 10px; 
+    border-bottom: 1px solid #cdcdcd; 
+    font-weight: bold;
+}
+.list-cate{
+    list-style: none;
+    line-height: 30px;
+    padding-left: 10px;
+}
+.list-cate li a{
+    color: wheat; 
+}
+.list-cate li a:hover{
+    text-decoration: none;
+    color: #52c6b7;
+}
+.td{
+    text-transform: uppercase;
+    font-weight: bold;
+    border-bottom: 3px solid #4630e9;
+    line-height: 40px;
+    margin-top: 10px;
+    color: blue;
+}
+.box{
+    width: 750px;
+    height: 415px;
+}
+.game{
+    width: 980px;
+    height: 65px;
+}
+.avtgame{
+    height: 15px;
+}
+.sp1{
+    width: 234px;
+    height: 246px;
+    border: 0.5px solid #cccccc;
+    text-align: center;
+    float: left;
+    margin-right: 15px;
+}
+
+.tensp{
+    color: rgb(59, 50, 50);
+    font-size: 18px;
+    font-weight: bold;
+}
+.sp2{
+    width: 234px;
+    height: 246px;
+    border: 0.5px solid #cccccc;
+    text-align: center;
+    float: left;
+    margin-right: 15px;
+}
+.sp3{
+    width: 234px;
+    height: 246px;
+    border: 0.5px solid #cccccc;
+    text-align: center;
+    float: left;
+}

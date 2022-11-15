@@ -1,0 +1,21 @@
+#text1{
+    color: blueviolet;
+    font-weight: bold;
+    font-size: 30px;
+}
+.text2{
+    color: aquamarine;
+    font-style: italic;
+    font-size: 40px;
+}
+.text2:hover{
+    text-decoration: underline;
+}
+img{
+    width: 400px;
+    height: 250px;
+    border: 5px solid #000;
+}
+img:hover{
+    border: 5px solid red;
+}

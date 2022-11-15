@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins&family=Roboto:wght@300;400;500&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <style type="text/tailwindcss">
+        @layer utilities{
+            .product-info{
+                @apply absolute bottom-0 bg-[#1E2832] text-white flex justify-between items-center p-3 w-full transition ease-in-out duration-300 transform translate-y-full group-hover:translate-y-0
+            }
+        }
+    </style>
+</head>
+<body class="font-roboto">
+    <div class="max-w-7xl mx-auto px-5">
+        <header>
+            <div>
+                <header class="max-w-7xl mx-auto px-2  flex relative" >
+                    <a href=""><img src="images/header/image 13.jpg" alt=""></a>
+                </header>
+                <section class="py-5 relative flex flex-wrap justify-center">
+                    <a href=""><img src="images/header/image 14.png" alt="" class=" " ></a>
+                </section>
+                <section class="menu">
+                    <ul class="flex flex-wrap justify-center space-x-4 font-roboto">
+                        <li ><a href=""class="block leading-[24px] hover:text-red-500 font-popins">Home</a></li>
+                        <li><a href="" class="block leading-[24px] hover:text-red-500 font-popins">Pages</a></li>
+                        <li><a href="" class="block leading-[24px] hover:text-red-500 font-popins">Destinations</a></li>
+                        <li><a href="" class="block leading-[24px] hover:text-red-500 font-popins">Blog</a></li>
+                        <li><a href="" class="block leading-[24px] hover:text-red-500 font-popins">Landing</a></li>
+                        <li><a href="" class="block leading-[24px] hover:text-red-500 font-popins">Shop</a></li>
+                    </ul>
+                </section>
+            </div>
+        </header>
+        <section class="banner py-14">
+            <div class="grid grid-cols-2 gap-8 items-center">
+                <div>
+                    <h2 class="text-[48px] font-bold leading-[55px] my-10">EXPLORING THE SUBURB SINCE 2019</h2>
+                    <p class="text-[20px] leading-[55px]">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididu nt ut labore et dolore labore et dolore.</p>
+                    <button
+                        class="bg-[#FFA800] text-[20px] leading-[55px] text-white inline-flex items-center space-x-3 px-8 py-4">
+                        <span class="hover:text-gray-500"><a href="">Read more</a></span>
+                    </button>
+                </div>
+                <div>
+                    <img src="images/brands/image 18.jpg" alt="" class="mx-auto">
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="max-w-7xl mx-auto px-5">
+                <header class="py-10">
+                    <h2 class="font-medium text-[45px] text-center ">FEATURED BLOG POSTS</h2>
+                </header>
+            </div>
+            <div class="grid grid-cols-3 gap-3">
+                <div class="product-item group">
+                    <div class="relative overflow-hidden">
+                        <a href="">
+                            <img src="images/featured/1.png" alt="">
+                        </a>
+                        <div class="product-info text-[16px]">
+                            <div>
+                                <span>BANFF NATIONAL PARK</span>
+                                <span>$546.00</span>
+                            </div>
+                            <div class="inline-flex items-center space-x-4">
+                                <span>Book this tour</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-item group">
+                    <div class="relative overflow-hidden">
+                        <a href="">
+                            <img src="images/featured/2.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="product-item group">
+                    <div class="relative overflow-hidden">
+                        <a href="">
+                            <img src="images/featured/3.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="mt-5">
+            <div class="text-white text[20px]">
+                <p>© 2021 Qode Interactive, All Rights Reserved</p>
+            </div>
+            <form action="" class="form-signup">
+                <input type="email" required placeholder="Email Address" class="form-control">
+                <button class="form-btn">SEND</button>
+            </form>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,91 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+img{
+    display: block;
+    max-width: 100%;
+}
+.container{
+    max-width: 1240px;
+    margin: auto;
+}
+/* header */
+.logo{
+    text-align: center;
+    padding: 15px 0;
+}
+.logo img{
+    margin: auto;
+}
+.navbar{
+    margin-bottom: 15px;
+}
+.navbar ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.navbar ul li a{
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+.navbar ul li a:hover{
+    background: rebeccapurple;
+    color: #fff;
+} 
+/* News */
+.news-header{
+    text-align: center;
+    padding: 15px 0;
+}
+.new_header__title{
+    font-size: 48px;
+    margin: 0 0 10px 0;
+}
+.new_header__desc{
+    margin: 0; padding: 0;
+}
+.row{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    float: left;
+}
+.news__link{
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+}
+.news__desc{
+    font-size: 20px;
+    font-weight: normal;
+}
+/* footer */
+footer{
+    display: flex;
+    background: #000;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.form-signup{
+    display: flex;
+}
+.form-control{
+    width: 400px;
+    border: 2px solid orange;
+    background: transparent;
+}
+.form-btn{
+    margin-left: 10px;
+    border: 2px solid orange;
+    background: orange;
+    padding: 10px 15px;
+}
+/* .news-img img{
+    width: 328px;
+    height: 194px;
+} */

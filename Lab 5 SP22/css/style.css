@@ -1,0 +1,143 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+body{
+    background: grey;
+    font-family: Tahoma;
+}
+#wrapper{
+    width: 970px;
+    margin: auto;
+}
+#header{
+    height: 120px;
+    background: white;
+    text-align: center;
+    padding-top: 10px;
+}
+#menu{
+    height: 40px;
+    background:#637f08;
+}
+#content{
+    height: 690px;
+}
+#footer{
+    height: 50px;
+    background: #637f08;
+    clear: both;
+    text-align: center;
+    color: aliceblue;
+    font-size: 24px;
+    line-height: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#left{
+    width: 780px;
+    height:690px;
+    background: white;
+    float: left;
+}
+#right{
+    width: 190px;
+    height: 690px;
+    background: rgb(195, 236, 11);
+    float: left;
+}
+/* menu */
+#menu ul li{
+    list-style: none;
+    float: left;
+    line-height: 40px;
+    padding: 0 25px;
+    font-size: 15px;
+}
+#menu ul li a{
+    color: white;
+    text-decoration: none;
+}
+#menu ul li a:hover{
+    text-decoration: underline;
+}
+.timkiem{
+    width: 60px;
+    height: 20px;
+    background: red;
+    border: 0.5px solid whitesmoke;
+    color: aliceblue;
+}
+.text4{
+    width: 200px;
+    height: 20px;
+    border: none;
+    background: white;
+    margin-top: 10px;
+}
+/* content left */
+.left-adv{
+    width: 581px;
+    background: rgba(97, 97, 87, 0.293);
+    height:690px;
+    margin-left: 199px;
+}
+.left-adv h1{
+    font-size: 12px;
+}
+.toptin{
+    border: 1px solid rgb(104, 98, 87);
+    padding: 20px;
+    width: 500px; 
+    margin: auto;
+}
+}
+.anh1{
+    float: left;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+/* content - right*/
+.text1{
+    padding-top: 18px;
+    font-size: 15px;
+    text-align: center;
+}
+.text2{
+    margin-left: 10px;
+    width: 170px;
+    height: 30px;
+    border: none;
+    background: white;
+}
+.text3{
+    padding-top: 10%;
+    font-size: 15px;
+    padding-bottom: 10px;
+    margin-left: 10px;
+}
+.sign_up{
+    width: 100px;
+    height: 35px;
+    background: rgb(58, 94, 177); 
+    color: white;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 45px;
+}
+.gioi_tinh{
+    padding-top: 10%;
+    margin-left: 10px;
+}
+.gt{
+    margin-left: 10px;
+    margin-top: 10%;
+}
+.dia_chi{
+    padding-top: 10%;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+#tp{
+    margin-left: 10px;
+    text-align: center;
+    height: 35px;
+}

@@ -1,0 +1,30 @@
+.box1{
+    width: 300px;
+    height: 200px;
+    background: red;
+    border-top: 5px double black;
+    padding: 20px 30px;
+    margin: 30px;
+}
+.box1:hover{box-shadow: 0 0 40px black;}
+.box2{
+    width: 300px;
+    height: 200px;
+    background: green;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px ;
+}
+.box3{
+    width: 300px;
+    height: 200px;
+    background: url(../Images/logo.png);
+    background-repeat: no-repeat;
+    border: 1px solid black;
+    box-shadow: 0 0 30px red;
+}
+.box4{
+    width: 200px;
+    height: 200px;
+    background: blueviolet;
+    border-radius: 50%;
+} 

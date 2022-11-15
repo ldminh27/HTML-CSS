@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo Form</title>
+    <style>
+        .wrapper{
+            border: 1px solid wheat;
+            padding: 20px;
+            width: 400px; 
+            margin: auto;}
+        .wrapper{font-weight: bold;}
+        .btn_clear{width: 100px;height: 35px;background: red; color: white;}
+        .btn_sent{width: 100px; height: 35px; background: green; color: white; border-radius: 20px;}
+        p span { color: red;}
+        
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <form action="" method="">
+            <h1>CÁC THÀNH VIÊN FORM</h1>
+            <p>Text (<span>*</span>)</p> <input type="text" placeholder="Điền họ tên" required>
+            <p>Email (<span>*</span>)</p> <input type="email" placeholder="Điền email FPT"required>
+            <p>Mật khẩu (<span>*</span>)</p> <input type="password">
+            <p>Tìm kiếm</p> <input type="search">
+            <p>File</p> <input type="file">
+            <p>Số</p> <input type="number" min="0" max="10">
+            <p>Date</p> <input type="date">
+            <p>Màu sắc</p> <input type="color">
+            <p>Một lựa chọn</p> <input type="radio"
+            name="gt">Nam <input type="radio" name="gt">Nữ
+            <p>Đa lựa chọn</p> <input type="checkbox">Pizza <input type="checkbox">Cơm <input type="checkbox">Lẩu ếch <input type="checkbox">Nhịn
+            <p>List danh sách</p> <select name="" id="">
+                <option value="">Hà Nội</option>
+                <option value="">Thái Bình</option>
+                <option value="">TP HCM</option>
+            </select>
+            <p>Text nhiều dòng</p> <textarea name="" id="" cols="30" rows="10"></textarea> <br>
+            <input type="reset" value="Xóa" class="btn_clear">
+            <input type="submit" value="Gửi" class="btn_sent">
+        </form>
+    </div>
+</body>
+</html>
